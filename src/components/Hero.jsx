@@ -1,5 +1,5 @@
 import {HERO_CONTENT} from "../constants/index.js";
-import Profilepic from "../assets/kevinRushProfile.jpg"
+import Profilepic from "../assets/profile.jpg"
 const Hero = () => {
     return (
         <div className="boarder-b border-neutral-900 pb-4 lg:mb-start">
@@ -15,9 +15,9 @@ const Hero = () => {
                         </p>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2">
+                <div className="w-full  lg:w-1/2">
                     <div className="flex justify-center">
-                        <img src={Profilepic}  alt="Profilepic"/>
+                        <img src={Profilepic} className="lg:h-[500px] lg:w-[500px]" alt="Profilepic"/>
                     </div>
                 </div>
             </div>

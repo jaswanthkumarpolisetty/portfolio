@@ -9,68 +9,66 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    year: "2024 - Present",
+    role: "Full Stack Developer",
+    company: "LivNSense GreenOps Private Limited",
+    description: `Developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with postgresql databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2023 - 2024",
+    role: "IT Developer Intern",
+    company: "The VONG Movement",
+    description: `Built WordPress websites, including a learning management system. Worked directly with servers, Apache, and Nginx.`,
+    technologies: ["WordPress", "Apache", "Nginx", "PHP", "MySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2023 - 2023",
+    role: "Research Intern",
+    company: "National Institute of Technology, Silchar",
+    description: `Worked on a project focused on DNA assembly error detection methods using C, Bloom filters, and hashing algorithms. This research contributed to advancements in computational biology.`,
+    technologies: ["C", "Bloom Filters", "Hashing Algorithms"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    year: "2022 - 2022",
+    role: "React Native Intern",
+    company: "Exposys Data Labs",
+    description: `As a React Native Intern at Exposys Data Labs, I assisted in building React-based web applications, focusing on component optimization, SVG animations, and responsive design. I worked closely with senior developers and the design team, contributing to the creation of interactive user interfaces.`,
+    technologies: ["React.js", "SVG", "Responsive Design", "JavaScript", "CSS"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    title: "Music SaaS Platform",
+    image: project1, 
+    description: `A music SaaS platform built with Next.js, Tailwind CSS, Prisma, and PostgreSQL. It offers scalable solutions for music streaming and management.`,
+    technologies: ["Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
   },
   {
-    title: "Task Management App",
+    title: "Chatbot Powered by Large Language Models for Personalized Recommendations",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
+    description: `An advanced recommendation system using LLMs and machine learning, integrating PALM2, LangChain, embeddings, and VectorDB for highly personalized suggestions.`,
+    technologies: ["Large Language Models", "Collaborative Filtering", "PALM2", "LangChain", "Embeddings", "VectorDB", "Machine Learning"],
+  },  
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
   {
-    title: "Blogging Platform",
+    title: "Todo list with Authentication",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "A React-based Todo list application with user authentication. Implemented using Hooks and Context API for state management, styled with Tailwind CSS, and built with TypeScript for type safety.",
+    technologies: ["React", "Hooks", "Context API", "Tailwind CSS", "TypeScript", "Authentication"],
+  },  
 ];
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+91 8106554902",
+  email: "jaswanthkumarpolisetty@gmail.com",
 };
