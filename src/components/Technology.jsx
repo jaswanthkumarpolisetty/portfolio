@@ -7,7 +7,10 @@ import {BiLogoPostgresql} from "react-icons/bi";
 
 const Technology = () => {
     return (
-        <div className="pb-24">
+        <div className="border-b border-neutral-900 pb-4">
+            <h1 className="mb-20 text-center text-4xl">
+                Technologies
+            </h1>
             <div className="flex flex-wrap items-center justify-center gap-4">
                 <div className=" rounded-2xl border-4 border-neutral-800 p-4">
                     <RiReactjsLine className="text-7xl text-cyan-400"/>
